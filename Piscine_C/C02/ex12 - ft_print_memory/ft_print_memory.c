@@ -1,15 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_memory.c                                  :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtortrot <mtortrot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/17 17:29:59 by mtortrot          #+#    #+#             */
-/*   Updated: 2022/09/17 17:30:02 by mtortrot         ###   ########.fr       */
+/*   Created: 2024/09/15 19:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/15 19:50:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 void	ft_print_addr(unsigned long offset)
