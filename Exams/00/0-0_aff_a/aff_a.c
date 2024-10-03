@@ -1,15 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   aff_a.c                                            :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fwuensch <fwuensch@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/07/13 21:38:04 by fwuensch          #+#    #+#             */
-/*   Updated: 2017/07/13 21:41:27 by fwuensch         ###   ########.fr       */
+/*   Created: 2024/09/10 13:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 15:38:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 int		main(int argc, char **argv)

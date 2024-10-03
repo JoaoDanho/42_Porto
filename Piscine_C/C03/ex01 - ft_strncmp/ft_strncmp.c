@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtortrot <mtortrot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/17 17:35:30 by mtortrot          #+#    #+#             */
-/*   Updated: 2022/09/17 17:36:31 by mtortrot         ###   ########.fr       */
+/*   Created: 2024/09/15 19:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/15 19:50:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include <unistd.h>
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {

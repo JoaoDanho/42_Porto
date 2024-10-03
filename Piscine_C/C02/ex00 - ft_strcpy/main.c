@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtortrot <mtortrot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/17 17:13:43 by mtortrot          #+#    #+#             */
-/*   Updated: 2022/09/17 17:13:44 by mtortrot         ###   ########.fr       */
+/*   Created: 2024/09/10 13:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 15:38:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include <unistd.h>
 #include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src);

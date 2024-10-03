@@ -1,15 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fwuensch <fwuensch@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/07/14 11:55:29 by fwuensch          #+#    #+#             */
-/*   Updated: 2017/07/14 11:55:56 by fwuensch         ###   ########.fr       */
+/*   Created: 2024/09/10 13:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 15:38:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 void    ft_print_numbers(void)

@@ -1,15 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   aff_last_param.c                                   :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: angavrel <angavrel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/07 17:46:21 by angavrel          #+#    #+#             */
-/*   Updated: 2017/07/14 12:29:50 by fwuensch         ###   ########.fr       */
+/*   Created: 2024/09/10 13:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 15:38:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <unistd.h>
 
 int		main(int ac, char **av)
