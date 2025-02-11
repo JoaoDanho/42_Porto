@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_list_remove_if.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fwuensche <fwuensche@student.42.fr>        +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/05 17:53:59 by angavrel          #+#    #+#             */
-/*   Updated: 2019/03/05 08:39:05 by fwuensche        ###   ########.fr       */
+/*   Created: 2024/09/10 13:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 15:38:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -1,56 +1,47 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/08 13:49:57 by joafranc          #+#    #+#             */
-/*   Updated: 2024/09/08 15:38:30 by joafranc         ###   ########.fr       */
+/*   Created: 2024/09/07 19:19:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 14:47:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
-void	print_three_numbers(char first, char second, char third)
-{
-	ft_putchar(first);
-	ft_putchar(second);
-	ft_putchar(third);
-	if (first != '7' | second != '8' | third != '9')
-	{
-		ft_putchar(',');
-		ft_putchar(' ');
-	}
-}
-
 void	ft_print_comb(void)
 {
-	char	first;
-	char	second;
-	char	third;
-
-	first = '0';
-	second = '0';
-	third = '0';
-	while (first <= '9')
+	int	a;
+	int	b;
+	int	c;
+	
+	a = 48;
+	while (a <= 55)
 	{
-		second = first + 1;
-		while (second <= '9')
+		b = a + 1;
+		while (b <= 56)
 		{
-			third = second + 1;
-			while (third <= '9')
+			c = b + 1;
+			while (c <= 57)
 			{
-				print_three_numbers(first, second, third);
-				third++;
+				write(1, &a, 1);
+				write(1, &b, 1);
+				write(1, &c, 1);
+				if (a != 55 || b != 56 || c != 57)
+						write (1, ", ", 2);
+				c++;
 			}
-			second++;
-		}
-		first++;
+		}	b++;
+		a++;
 	}
 }
+
+*/
+int	main()
+{
+	ft_print_comb();
+	return (0);
+}
+/*

@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   list.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: angavrel <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: joafranc <joafranc@student42.porto>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/27 11:12:28 by angavrel          #+#    #+#             */
-/*   Updated: 2016/12/27 11:13:53 by angavrel         ###   ########.fr       */
+/*   Created: 2024/09/10 13:49:57 by joafranc          #+#    #+#             */
+/*   Updated: 2024/09/10 15:38:30 by joafranc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-typedef	struct		s_list
+typedef	struct	s_list
 {
-	int				data;
-	struct s_list	*next;
-}					t_list;
+	int	data;
+	struct s_list *next;
+}
+t_list;
